@@ -1,0 +1,39 @@
+document {
+  header {
+    option(key="assorted" value="true")
+    option(key="sort" value="score")
+    option(key="query" value="competitive games")
+
+    style(src="./style.scss")
+  }
+
+  body {
+    h1 {
+      Hello, world!
+    }
+
+    div(class="container") {
+      div(class="left") {
+        div(class="nav-item selected"){Lorem Ipsum something something}
+        div(class="nav-item"){Lorem Ipsum something something}
+        div(class="nav-item"){Lorem Ipsum something something}
+        div(class="nav-item"){Lorem Ipsum something something}
+        div(class="nav-item"){Lorem Ipsum something something}
+        div(class="nav-item"){Lorem Ipsum something something}
+      }
+
+      div(class="left" style="scale: 25%;") {
+        item(src="./item.json")
+        h2 {
+          Stuff
+        }
+
+        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+        ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+        ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+        ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+        ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+      }
+    }
+  }
+}
